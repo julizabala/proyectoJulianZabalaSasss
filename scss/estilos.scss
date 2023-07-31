@@ -1,0 +1,127 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+   }
+
+
+
+
+$color_fondo: rgb(157, 181, 222);
+
+$color_titulo: rgb(143, 46, 10);
+
+$fuente_titulo: fuentetitulo;
+
+$fuente_parrafo: fuenteparrafo;
+
+$fuente_link: fuentelinks;
+
+@font-face {
+     font-family: fuentetitulo;
+     src: url(../assets/Fonts/LilitaOne-Regular.ttf);
+
+
+}
+
+@font-face {
+     font-family: fuentelinks;
+     src: url(../assets/Fonts/AbrilFatface-Regular.ttf);
+
+
+}
+
+@font-face {
+     font-family: $fuente_parrafo;
+     src: url(../assets/Fonts/SofiaSansCondensed-Light.ttf);
+
+
+}
+
+
+header{  
+
+       background-color: rgb(221, 255, 0);
+       border: solid;
+       padding: 10px;
+       border-radius: 15px;
+
+}
+
+
+       
+
+
+body{
+
+     background-color: $color_fondo;
+
+
+
+}
+
+nav ul li{
+
+     list-style: none;
+     display:inline-block;
+     margin-left:20px;
+    
+     font-size: 17px;
+     padding: 10px;
+     border-radius: 20px;
+     font-family: $fuente_link;
+
+}
+
+     
+a{
+      text-decoration: none;
+
+}
+
+.titulo{
+          text-align: center;
+          font-family: $fuente_titulo;
+          color: $color_titulo;
+
+
+
+}
+
+.parrafo{
+
+         font-family: $fuente_parrafo;
+         font-size: 20px;
+}
+
+.logo{
+     width: 150px;
+     height: 100px;
+ 
+ }
+
+
+.carrusel{
+     width: 900px;
+     height: 900px;
+
+}
+
+
+
+.imagen2{
+     width: 500px;
+     height: 500px;
+   
+   }
+
+   .imagen{
+     width: 300px;
+     height: 300px;
+   
+   }
+
+  
+
+
+ 

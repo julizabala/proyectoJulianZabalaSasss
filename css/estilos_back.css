@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+  nav ul li{
+
+    list-style: none;
+    display:inline-block;
+    margin-left:20px;
+    
+
+
+
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+
+}
+
+
+.carrusel {
+
+        width: 900px;
+        height: 900px;
+
+}
+
+
+.carru{
+       align-content: center;
+
+
+}
+
+
+.titulo{
+      text-align: center;
+      font-family: FuenteTitulo;
+
+
+}
+
+
+.parrafo{
+        font-family: FuenteParrafo;
+        font-size: 20px;
+
+
+}
+
+
+@font-face {
+  font-family: 'FuenteTitulo';
+  src: url('../assets/Fonts/LilitaOne-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'FuenteParrafo';
+  src: url('../assets/Fonts/SofiaSansCondensed-Light.ttf') format('truetype');
+}
+
+
+body{
+  background-color: rgb(255, 252, 78);
+  
+
+
+}
+
+.imagen{
+  width: 300px;
+  height: 300px;
+
+}
+
+
+.cajaCamara{
+  margin-bottom: 20px;
+  position: relative;
+  left: 545px;
+}
+
+
+
+  .imagen2{
+    width: 500px;
+    height: 500px;
+  
+  }
+  
+
+  .caja{
+
+    border: 1px solid;
+
+
+  }
+
+  .parrafo{
+
+    max-height: 315px;
+    overflow: auto;
+}
